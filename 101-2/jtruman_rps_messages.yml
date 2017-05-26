@@ -1,0 +1,28 @@
+# Not my code, this is jtruman88's code.
+
+finishers:
+  ['rock', 'scissors']: "Rock crushes Scissors"
+  ['rock', 'lizard']: "Rock crushes Lizard"
+  ['paper', 'rock']: "Paper covers Rock"
+  ['paper', 'spock']: "Paper disproves Spock"
+  ['scissors', 'paper']: "Scissors cuts Paper"
+  ['scissors', 'lizard']: "Scissors decapitates Lizard"
+  ['lizard', 'paper']: "Lizard eats Paper"
+  ['lizard', 'spock']: "Lizard poisons Spock"
+  ['spock', 'scissors']: "Spock smashes Scissors"
+  ['spock', 'rock']: "Spock vaporizes rock"
+
+welcome: |
+  Welcome to Rock, Paper, Scissors, Lizard, Spock!
+  -- You will be playing against a Computer opponent.
+  -- The first to win 5 rounds, wins the game!
+  -- Good luck!
+round_win: "You won that round!"
+round_loss: "Computer won that round..."
+round_tie: "This round is a tie!"
+invalid_choice: "That is not a valid choice."
+game_win: "Congratulations, you won!"
+game_loss: "Aww man! Computer won..."
+again: "Do you want to play again? 'y' or 'n'"
+invalid_again: "Please enter 'y' or 'n'"
+goodbye: "Thanks for playing, goodbye!"
