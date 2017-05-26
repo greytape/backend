@@ -12,16 +12,15 @@ def clear_screen
 end
 
 def win?(first, second)
-  (first == 'rock' && second == 'scissors') ||
-    (first == 'rock' && second == 'lizard') ||
-    (first == 'paper' && second == 'spock') ||
-    (first == 'paper' && second == 'rock') ||
-    (first == 'scissors' && second == 'lizard') ||
-    (first == 'scissors' && second == 'paper') ||
-    (first == 'spock' && second == 'scissors') ||
-    (first == 'spock' && second == 'rock') ||
-    (first == 'lizard' && second == 'paper') ||
-    (first == 'lizard' && second == 'spock')
+  hash =
+    {
+      'rock' => ['lizard', 'scissors'],
+      'paper' => ['rock', 'spock'],
+      'scissors' => ['paper', 'lizard'],
+      'lizard' => ['paper', 'spock'],
+      'spock' => ['rock', 'scissors']
+    }
+  hash[first].include?(second)
 end
 
 # Method prints out who won the round.
