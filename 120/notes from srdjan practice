@@ -1,0 +1,49 @@
+Give a concept and need to explain with examples
+
+
+For example - explain encapsulation
+What if I change this
+What if I do this?
+
+Don't need to solve any problems
+
+Give code example
+
+Be really specific about language
+What is the method being called on?
+
+Class instance variables @@fish = 0
+Read through everything very carefully and understnd what's going on in the code
+
+Explain encapsulation with examples
+Explain polymorphism with examples
+
+Lookup what Kernel is (it's a module)
+All custom classes inherit from Object.
+Embarassing lack of understanding of the above.
+
+Instructors and students don't need to interact directly
+TAs and instructors have a certain relationship - TAs are a type of instructor
+
+Instructors and TAs need to know something about each other
+
+Important to understand that relationship needs to be between objects, rather than object states
+
+
+Waht does equality operator test for in strings
+
+
+For final question
+Learn
+multiline strings
+<<-
+make to_s method
+%{
+  
+}
+
+16 questions 
+re-read book several times
+re-read theory articles several times
+classes and objects lecture, inheritance lecture (lesson 2)
+Don't waste time on exceptions

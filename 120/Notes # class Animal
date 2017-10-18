@@ -1,0 +1,61 @@
+Notes # class Animal
+#   attr_reader :name, :color
+  
+#   def initialize(name, color)
+#     @name = name
+#     @color = color
+#   end
+  
+#   def ==(other_animal)
+#     @name == other_animal.name && @color == other_animal.color
+#   end
+# end
+
+
+# animal1 = Animal.new('Jacky', 'black')
+
+# animal2 =  Animal.new('Jacky', 'black')
+
+
+=begin
+- equility operator is(what kind of method it is and what is comparing). You will also need to check is there custom equality
+operator in some other classes like String, Integer class and what it is doing there
+
+- relationship between classes and objects
+
+- inheritance, know to explain it, provide examples. What are cons in Ruby of inheritance, what you can't do.
+Provide examples and explain how can you solve that problem.
+
+- Know what polymorphism is and explain it with code.
+
+You need to know theory well, so learn what are the advantages of OOP, what are cons of it.
+
+- What is the Object Oriented Design?
+
+And prepare that the last question in the quiz will be a long one, I took probably 40 minutes for it.
+
+Have examples for certain concepts prepared
+
+
+
+` `
+
+```ruby
+```
+
+class Animal
+
+def initialize(name)
+end
+end
+class Dog < Animal
+
+multiline strings
+def to_s
+%{
+  
+}
+<<-FOO
+FOO
+  
+=end
