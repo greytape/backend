@@ -37,7 +37,7 @@ class SumOfMultiples
       end
       selected
     end
-    one_to_limit = [0] if one_to_limit == []
+    return 0 if one_to_limit == []
     one_to_limit.reduce(:+)
   end
 
@@ -50,9 +50,20 @@ class SumOfMultiples
       end
       selected
     end
-    one_to_limit = [0] if one_to_limit == []
+    return 0 if one_to_limit == []
     one_to_limit.reduce(:+)
   end
+
+  def to(limit_num)
+    one_to_limit = (0...limit_num).to_a
+    total = 0
+    counter = 0
+    while counter < limit_num
+      if counter %
+    return 0 if one_to_limit == []
+    one_to_limit.reduce(:+)
+  end
+
 end
 
 # Tests

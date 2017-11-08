@@ -1,7 +1,7 @@
-hats = "What's going
-on here then
-i wonder?"
+def foo(bar:, baz: 'hats')
+  puts bar
+  puts baz
+end
 
-# p hats.split(" ")
-
-p hats.split("\n")
+foo # => 'default'
+# foo(bar: 'baz') # => 'baz'
